@@ -1,15 +1,19 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "FECdemo",
+  "version": "1.0.0",
+  "description": "FEC RPT10 Proxy Server for loading all Twitch Components",
+  "author": "Faris Habib",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon ./server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
   },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
