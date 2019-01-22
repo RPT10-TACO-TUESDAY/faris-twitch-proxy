@@ -1,4 +1,5 @@
-
+#submodule
+faris-video-service-component/
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
