@@ -1,5 +1,5 @@
 {
-  "name": "FECdemo",
+  "name": "FECTwitchProxy",
   "version": "1.0.0",
   "description": "FEC RPT10 Proxy Server for loading all Twitch Components",
   "author": "Faris Habib",
@@ -13,6 +13,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
+    "morgan": "^1.9.1",
     "nodemon": "^1.18.9"
   },
   "devDependencies": {

@@ -1,0 +1,3 @@
+[submodule "faris-video-service-component"]
+	path = faris-video-service-component
+	url = https://github.com/fhabib229/faris-video-service-component
