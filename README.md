@@ -1,6 +1,6 @@
 # Project Name
 
-> Project description
+> This is the proxy application for the Twitch.tv Item Detail Page for the Hack Reactor FEC Project. The proxy connects all 4 services together and renders them to the page.
 
 ## Related Projects
 
