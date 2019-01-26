@@ -1,13 +1,13 @@
 # Project Name
 
-> Project description
+> This is the proxy application for the Twitch.tv Item Detail Page for the Hack Reactor FEC Project. The proxy connects all 4 services together and renders them to the page.
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/RPT10-TACO-TUESDAY/faris-video-service-component
+  - https://github.com/RPT10-TACO-TUESDAY/anna-chat-component
+  - https://github.com/RPT10-TACO-TUESDAY/george-categories-component
+  - https://github.com/RPT10-TACO-TUESDAY/milena-menu-bar-component
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@
 
 ## Usage
 
-> Some usage instructions
+> This repo is meant to connect all four modules for the Twitch.tv Item Detail Page. Install all dependencies and make sure the related projects are deployed or running on a localhost before deploying or running this proxy.
 
 ## Requirements
 
@@ -33,7 +33,14 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
 ```
+
+## Setup
+
+After all services are running, type in
+```sh
+npm start
+```
+
 
